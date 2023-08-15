@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "postgres-course"
+version = "0.1.0"
+description = ""
+authors = ["Grandic <d.bitkov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "postgres_course"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2-binary = "^2.9.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
