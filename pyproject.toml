@@ -10,6 +10,7 @@ packages = [{include = "postgres_course"}]
 python = "^3.11"
 psycopg2-binary = "^2.9.7"
 requests = "^2.31.0"
+tqdm = "^4.66.1"
 
 
 [build-system]
